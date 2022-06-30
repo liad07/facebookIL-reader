@@ -1,4 +1,4 @@
-file = open("facebook-israel.txt", "r", encoding="utf8")
+file = open(input("enter file link here\n"), "r", encoding="utf8")
 phone_list = open("phonelist.txt", "w", encoding="utf8")
 gender_list = open("genderlist.txt", "w", encoding="utf8")
 id_list = open("idlist.txt", "w", encoding="utf8")
